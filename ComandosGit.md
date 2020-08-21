@@ -4,6 +4,6 @@
 
 -> git add // Adiciona arquivos ao Git pode usar -A ou --all para inclusão de todos os arquivos
 
--> git log // Mostra detalhes dos commits
+-> git log // Mostra detalhes dos commits (--oneline)
 
 -> 
