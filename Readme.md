@@ -36,4 +36,4 @@
 
 -> git checkout HEAD -- nomearq // Recuperar a versão anterior do arquivo dentro do branch atual (Head). Depois do commit não recupera.
 
--> 
+-> git revert --no-edit codcommit // Reverter o commit
