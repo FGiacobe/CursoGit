@@ -28,4 +28,7 @@
 -> git stash drop stash@{0} //Apaga os stashs guardados
 -> git stash branch nomebranch //Criar uma nova branch com os arquivos do stashs
 
+-> git remote add origin https://... //Conectar ao repositório remoto
+-> git remote -v // Verificar a conexão
+
 -> 
