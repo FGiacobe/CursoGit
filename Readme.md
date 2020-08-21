@@ -32,6 +32,9 @@
 -> git remote add origin https://... //Conectar ao repositório remoto
 -> git remote -v // Verificar a conexão
 
+-> git push -u origin branch //Enviar para o repositório
+-> git push -u origin :branch //Apagar o branch especificado do repositório
+
 -> git diff ou show -- name-only //Mostrar alterações feitas nos arquivos
 
 -> git checkout HEAD -- nomearq // Recuperar a versão anterior do arquivo dentro do branch atual (Head). Depois do commit não recupera.
