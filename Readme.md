@@ -34,6 +34,7 @@
 
 -> git push -u origin branch //Enviar para o repositório
 -> git push -u origin :branch //Apagar o branch especificado do repositório
+-> git pull origin branch //Puxar os dados do repositório
 
 -> git diff ou show -- name-only //Mostrar alterações feitas nos arquivos
 
