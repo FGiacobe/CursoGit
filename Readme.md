@@ -14,12 +14,16 @@
 -> git branch nomebranch // Cria uma ramificação do projeto
 -> git branch -d nomebranch // Deleta uma ramificação do projeto
 
+-> git merge branchname // Mescla as branch's
+
 -> cat .git/HEAD // Mostra em qual branch está trabalhando
 
 -> git checkout nomebranch //Alterna para a branch desejada
 -> git checkout -b nomebranch //Cria e já alterna para a branch criada
 
--> git merge nomebranch // Mescla as branch's
+-> git fetch remotename // Verifica alterações no repositório
+-> git merge remotename/branchname // Mescla atualizações feitas online com seu trabalho local
+-> git pull remotename branchname // Pega atualizações online e as mescla com seu trabalho local
 
 -> git stash save "nome" //Para guardar arquivos em stash
 -> git stash list //Listar os stashs guardados
@@ -29,8 +33,10 @@
 -> git stash drop stash@{0} //Apaga os stashs guardados
 -> git stash branch nomebranch //Criar uma nova branch com os arquivos do stashs
 
--> git remote add origin https://... //Conectar ao repositório remoto
+-> git remote add remotename https://... //Conectar ao repositório remoto
 -> git remote -v // Verificar a conexão
+-> git remote rm remotename // Remove o nome do remote
+-> git remote rename remotename newremotename // Renomear o destino do remote
 
 -> git push -u origin branch //Enviar para o repositório
 -> git push -u origin :branch //Apagar o branch especificado do repositório
